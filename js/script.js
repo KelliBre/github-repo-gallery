@@ -95,6 +95,7 @@
 
     backButton.addEventListener("click", function(e){
       allReposContainer.classList.remove("hide");
+      repoData.classList.add("hide");
       backButton.classList.add("hide");
 
     });
